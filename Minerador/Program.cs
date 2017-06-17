@@ -10,6 +10,8 @@ namespace Minerador
             var arquivosPdb = RepositorioArquivoPdb.Instancia.ListarArquivosPdb();
 
             var interfaceMolecular = RepositorioProteina.Instancia.ObterInterfaceMolecular(arquivosPdb.FirstOrDefault());
+
+            var grafo = RepositorioGrafo.Instancia.ModelarGrafo(interfaceMolecular);
         }
     }
 }

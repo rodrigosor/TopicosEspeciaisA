@@ -15,6 +15,14 @@ namespace Minerador.Dominio
             }
         }
 
+        public bool Valido
+        {
+            get
+            {
+                return true;
+            }
+        }
+
         public ArquivoPdb(string caminho)
         {
             var atomos = EnumerarAtomosPorArquivo(caminho);

@@ -40,8 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aresta.cs" />
     <Compile Include="ArquivoPdb.cs" />
     <Compile Include="Atomo.cs" />
+    <Compile Include="Grafo.cs" />
+    <Compile Include="Negocio\Aresta.cs" />
+    <Compile Include="Negocio\Grafo.cs" />
     <Compile Include="Negocio\NotacaoHidrofobica.cs" />
     <Compile Include="NotacaoHidrofobica.cs" />
     <Compile Include="Negocio\ArquivoPdb.cs" />
