@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerador", "Minerador\Minerador.csproj", "{52D79598-408E-43E6-B097-41AFB9295829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerador.Repositorio", "Minerador.Repositorio\Minerador.Repositorio.csproj", "{E4F6B439-FAB7-4F66-AC92-313E7A110C64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minerador.Dominio", "Minerador.Dominio\Minerador.Dominio.csproj", "{21541327-E000-48D1-A166-62BC184C5808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D79598-408E-43E6-B097-41AFB9295829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D79598-408E-43E6-B097-41AFB9295829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D79598-408E-43E6-B097-41AFB9295829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D79598-408E-43E6-B097-41AFB9295829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F6B439-FAB7-4F66-AC92-313E7A110C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F6B439-FAB7-4F66-AC92-313E7A110C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F6B439-FAB7-4F66-AC92-313E7A110C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F6B439-FAB7-4F66-AC92-313E7A110C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21541327-E000-48D1-A166-62BC184C5808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21541327-E000-48D1-A166-62BC184C5808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21541327-E000-48D1-A166-62BC184C5808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21541327-E000-48D1-A166-62BC184C5808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
