@@ -13,7 +13,7 @@ namespace Minerador
 
             var grafo = RepositorioGrafo.Instancia.ModelarGrafo(interfaceMolecular);
 
-            grafo.SalvarComoArquivo("c:\\arquivo.txt");
+            grafo.SalvarComoArquivo("c:\\grafo.txt");
         }
     }
 }
